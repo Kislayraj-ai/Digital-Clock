@@ -41,5 +41,5 @@ const year = document.getElementById('year');
 const newDate = new Date();
 day.textContent = newDate.getDate();
 currentDate.textContent = weekdays[newDate.getDay()];
-month.textContent = months[newDate.getMonth() + 1];
+month.textContent = months[newDate.getMonth()];
 year.textContent = newDate.getFullYear();
